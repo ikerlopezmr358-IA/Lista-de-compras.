@@ -1,0 +1,11 @@
+#calculo de compras mas inpuestos.
+producto1 = 80 
+producto2 = 50
+producto3 = 20 #productos y sus precios
+
+subtotal =  producto1 + producto2 + producto3 
+impuestos =  subtotal * 0.10 #el costo total + impuestos
+
+total_final = subtotal + impuestos #el valor final
+
+print (total_final)
